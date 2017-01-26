@@ -1,0 +1,33 @@
+{
+  "name": "react-visualizer",
+  "version": "1.0.0",
+  "description": "react-visualizer",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel ./src --out-dir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0"
+  },
+  "keywords": [
+    "React",
+    "ReactJS",
+    "Audio",
+    "Visualizer",
+    "Sound",
+    "Music"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestseob93/react-visualizer.git"
+  }
+}
